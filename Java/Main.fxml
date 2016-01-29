@@ -22,6 +22,7 @@
                			<MenuItem text="Glider"/>
                			<MenuItem text="Box"/>
                			<MenuItem text="Something"/>
+               			<MenuItem text="Something2"/>
 					</items>
 				</Menu>
 			</menus>
