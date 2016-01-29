@@ -7,6 +7,7 @@
 <?import java.net.*?>
 <?import javafx.scene.canvas.Canvas?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.control.ColorPicker?>
 <?import javafx.scene.control.Slider?>
 	
@@ -22,16 +23,18 @@
                			<MenuItem text="Glider"/>
                			<MenuItem text="Box"/>
                			<MenuItem text="Something"/>
-               			<MenuItem text="Something2"/>
 					</items>
 				</Menu>
 			</menus>
 		</MenuBar>
 	</VBox>
+	<HBox spacing="25" alignment="center" GridPane.columnIndex="1" GridPane.rowIndex="4">
+		<Button text="Test Button"/>
+	</HBox>
 	
 	<stylesheets>
-    <URL value="@application.css" />
-  </stylesheets>
+    	<URL value="@application.css" />
+  	</stylesheets>
   
 </GridPane>
 
