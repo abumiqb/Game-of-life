@@ -9,8 +9,6 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<!-- Sett opp 2x2 grid layout -->
-
 <BorderPane stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.of.life.FXMLController">
    <bottom>
    	<HBox alignment="center" spacing="25" BorderPane.alignment="CENTER">
@@ -22,7 +20,7 @@
                <Font size="25.0" />
             </font>
          </Button>
-        <ColorPicker />
+        <ColorPicker editable="true" />
          <Slider />
          <Button minHeight="50.0" minWidth="200.0" mnemonicParsing="false" text="Stop">
             <HBox.margin>
